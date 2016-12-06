@@ -38,7 +38,6 @@ Filesystem OS type:       Linux
 Inode count:              1310720
 Block count:              5242880
 Reserved block count:     0
-...
 ```
 
 
