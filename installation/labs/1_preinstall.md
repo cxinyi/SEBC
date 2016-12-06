@@ -22,13 +22,23 @@ none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw)
 
 **3. Show the reserve space of any non-root, ext-based volumes**
 ```
-[hduser@SEBCxinyi ~]$ df -h
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda2        20G  2.0G   18G  10% /
-tmpfs           6.9G     0  6.9G   0% /dev/shm
-/dev/sda1       488M   93M  370M  21% /boot
-/dev/sda3        29G  172M   28G   1% /var
-/dev/sdb1        28G   44M   26G   1% /mnt/resource
+[root@SEBCxinyi tmp]# tune2fs -l /dev/sda2
+tune2fs 1.41.12 (17-May-2010)
+Filesystem volume name:   <none>
+Last mounted on:          /
+Filesystem UUID:          003914c2-ef4e-4f44-80c4-9d085be29a78
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent flex_bg sparse_super large_file huge_file uninit_bg dir_nlink extra_isize
+Filesystem flags:         signed_directory_hash
+Default mount options:    user_xattr acl
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              1310720
+Block count:              5242880
+Reserved block count:     0
+...
 ```
 
 
