@@ -1,6 +1,7 @@
 **1. Check vm.swappiness**
 
 [hduser@SEBCxinyi ~]$ cat /proc/sys/vm/swappiness
+
 1
 
 
@@ -21,7 +22,7 @@ none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw)
 
 
 **3. Show the reserve space of any non-root, ext-based volumes**
-**
+
 [hduser@SEBCxinyi ~]$ df -h
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2        20G  2.0G   18G  10% /
