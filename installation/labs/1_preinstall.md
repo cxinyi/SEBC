@@ -8,16 +8,16 @@
 
 **2. Show the mount attributes of all volumes**
 
-[hduser@SEBCxinyi ~]$ mount -l
-/dev/sda2 on / type ext4 (rw)
-proc on /proc type proc (rw)
-sysfs on /sys type sysfs (rw)
-devpts on /dev/pts type devpts (rw,gid=5,mode=620)
-tmpfs on /dev/shm type tmpfs (rw)
-/dev/sda1 on /boot type ext4 (rw)
-/dev/sda3 on /var type ext4 (rw)
-none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw)
-/dev/sdb1 on /mnt/resource type ext4 (rw)
+*[hduser@SEBCxinyi ~]$ mount -l
+*/dev/sda2 on / type ext4 (rw)
+*proc on /proc type proc (rw)
+*sysfs on /sys type sysfs (rw)
+*devpts on /dev/pts type devpts (rw,gid=5,mode=620)
+*tmpfs on /dev/shm type tmpfs (rw)
+*/dev/sda1 on /boot type ext4 (rw)
+*/dev/sda3 on /var type ext4 (rw)
+*none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw)
+*/dev/sdb1 on /mnt/resource type ext4 (rw)
 
 
 
