@@ -26,21 +26,22 @@ No rows selected (0.285 seconds)
 
 **with authorizations**
 ```
-0: jdbc:hive2://172.16.7.11:10000/default> SHOW TABLES;
-INFO  : Compiling command(queryId=hive_20161208023232_76b1284f-9429-4949-95d7-7caf3e3be499): SHOW TABLES
+0: jdbc:hive2://172.16.7.11:10000/default> show tables;
+INFO  : Compiling command(queryId=hive_20161208024747_503bad00-f6f8-493d-951d-ae39090b4b2e): show tables
 INFO  : Semantic Analysis Completed
 INFO  : Returning Hive schema: Schema(fieldSchemas:[FieldSchema(name:tab_name, type:string, comment:from deserializer)], properties:null)
-INFO  : Completed compiling command(queryId=hive_20161208023232_76b1284f-9429-4949-95d7-7caf3e3be499); Time taken: 0.049 seconds
-INFO  : Executing command(queryId=hive_20161208023232_76b1284f-9429-4949-95d7-7caf3e3be499): SHOW TABLES
+INFO  : Completed compiling command(queryId=hive_20161208024747_503bad00-f6f8-493d-951d-ae39090b4b2e); Time taken: 0.068 seconds
+INFO  : Executing command(queryId=hive_20161208024747_503bad00-f6f8-493d-951d-ae39090b4b2e): show tables
 INFO  : Starting task [Stage-0:DDL] in serial mode
-INFO  : Completed executing command(queryId=hive_20161208023232_76b1284f-9429-4949-95d7-7caf3e3be499); Time taken: 0.104 seconds
+INFO  : Completed executing command(queryId=hive_20161208024747_503bad00-f6f8-493d-951d-ae39090b4b2e); Time taken: 0.121 seconds
 INFO  : OK
-+-----------+--+
-| tab_name  |
-+-----------+--+
-| persons   |
-+-----------+--+
-1 row selected (0.206 seconds)
++------------+--+
+|  tab_name  |
++------------+--+
+| persons    |
+| sample_07  |
++------------+--+
+2 rows selected (0.301 seconds)
 ```
 
 **kinit as george**
