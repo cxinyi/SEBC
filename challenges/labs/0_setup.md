@@ -29,12 +29,12 @@ repolist: 7,511
 
 **/etc/passwd**
 ```
-bavaria:x:2700:501::/home/bavaria:/bin/bash
-saxony:x:2800:502::/home/saxony:/bin/bash
+raffles:x:2700:504::/home/raffles:/bin/bash
+orchard:x:2800:503::/home/orchard:/bin/bash
 ```
 
 **/etc/group**
 ```
-social:x:501:
-democratic:x:502:
+shops:x:503:
+walks:x:504:
 ```
